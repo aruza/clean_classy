@@ -1,0 +1,56 @@
+/* begin buttons */
+@import "bourbon/bourbon"
+.button-md a
+	@include linear-gradient(top, #eee, #ccc)
+	border: 1px solid #ccc
+	border-bottom: 1px solid #bbb
+	border-radius: 5px
+	color: #333
+	font: 14px "Helvetica", sans-serif
+	font-weight: bold
+	padding: 8px 10px 8px 10px
+	text-align: center
+	text-shadow: 0 1px 0 #eee
+	text-decoration: none
+	display: inline-block
+	&:hover
+		@include linear-gradient(top, #ddd, #bbb)
+		border: 1px solid #bbb
+		border-bottom: 1px solid #999
+		cursor: pointer
+		text-shadow: 0 1px 0 #ddd
+	i
+		display: inline-block
+		background: url("../img/arrow-right.png") no-repeat
+		width: 14px
+		height: 14px
+		margin-left: 4px
+		vertical-align: middle 
+
+.button-sm a
+	@include linear-gradient(top, #eee, #ccc)
+	border: 1px solid #ccc
+	border-bottom: 1px solid #bbb
+	border-radius: 4px
+	color: #333
+	font: 10px "Helvetica", sans-serif
+	font-weight: bold
+	padding: 5px
+	text-align: center
+	text-shadow: 0 1px 0 #eee
+	text-decoration: none
+	&:hover
+		@include linear-gradient(top, #ddd, #bbb)
+		border: 1px solid #bbb
+		border-bottom: 1px solid #999
+		cursor: pointer
+		text-shadow: 0 1px 0 #ddd
+	i
+		display: inline-block
+		background: url("../img/arrow-right-mini.png") no-repeat
+		width: 10px
+		height: 10px
+		padding-left: 3px
+		vertical-align: middle
+
+/* end buttons */

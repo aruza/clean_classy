@@ -1,0 +1,14 @@
+/* begin footer */
+.footer { height: 127px; background: url("../img/container_bg.png") repeat; }
+
+.social-block { padding: 25px 0 14px 28px; }
+
+.footer-menu { padding: 0 0 25px 28px; float: left; }
+
+.footer-logo { padding: 45px 10px 10px 0; float: right; background: url("../img/logo.png") no-repeat; width: 159px; height: 25px; }
+
+.footer-logo .footer-logo-text { color: #fff; }
+
+/* end footer */
+
+/*# sourceMappingURL=_footer.css.map */
